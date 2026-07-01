@@ -17,6 +17,36 @@ The model classifies flowers into:
 based on four flower measurements.
 
 ---
+## 📸 Project Preview
+
+### 🌐 Streamlit Web Application
+
+![Streamlit App](Images/app.png)
+
+---
+
+### 📊 Pair Plot
+
+The pair plot shows the relationship between all numerical features. It clearly demonstrates that **Petal Length** and **Petal Width** separate the three Iris species much better than the sepal measurements.
+
+![Pair Plot](Images/pairplot.png)
+
+---
+
+### 📈 Feature Importance
+
+Random Forest identified **Petal Length** and **Petal Width** as the most important features for predicting the flower species.
+
+![Feature Importance](Images/feature_importance.png)
+
+---
+
+### 📉 Confusion Matrix
+
+The confusion matrix of the Random Forest model shows that the classifier correctly predicted all samples in the test dataset.
+
+![Confusion Matrix](Images/confusion_matrix.png)
+
 
 ## 🚀 Technologies Used
 
