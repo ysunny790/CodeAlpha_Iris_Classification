@@ -1,5 +1,9 @@
 # 🌸 Iris Flower Classification
 
+A Machine Learning project developed as part of the **CodeAlpha Data Science Internship**.
+
+The application predicts the species of an Iris flower using four flower measurements and is deployed using **Streamlit**.
+
 ## 📌 Project Overview
 
 This project predicts the species of an Iris flower using machine learning.
@@ -41,6 +45,15 @@ CodeAlpha_Iris_Classification/
 ├── requirements.txt
 └── LICENSE
 ```
+## ✨ Features
+
+- Data Cleaning and Preprocessing
+- Exploratory Data Analysis (EDA)
+- Multiple Machine Learning Models
+- Model Comparison
+- Feature Importance Analysis
+- Streamlit Web Application
+- Interactive Flower Species Prediction
 
 ---
 
@@ -79,27 +92,30 @@ CodeAlpha_Iris_Classification/
 
 ## ▶️ Run the Project
 
-Clone the repository
+### Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/ysunny790/CodeAlpha_Iris_Classification.git
 ```
 
-Install dependencies
+### Navigate to the project directory
+
+```bash
+cd CodeAlpha_Iris_Classification
+```
+
+### Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the Streamlit app
+### Run the Streamlit app
 
 ```bash
 cd App
 python -m streamlit run app.py
 ```
-
----
-
 ## 👨‍💻 Author
 
 Sunny Yadav
