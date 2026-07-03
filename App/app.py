@@ -1,6 +1,7 @@
 import streamlit as st
 import joblib
 import pandas as pd
+from pathlib import Path
 
 # Page configuration
 st.set_page_config(
@@ -10,7 +11,10 @@ st.set_page_config(
 )
 
 # Load model
-model = joblib.load("../Models/iris_model.pkl")
+BASE_DIR = Path(__file__).resolve().parent.parent
+MODEL_PATH = BASE_DIR / "Models" / "iris_model.pkl"
+
+model = joblib.load(MODEL_PATH)
 
 # Title
 st.title("🌸 Iris Flower Classification")
