@@ -119,7 +119,11 @@ CodeAlpha_Iris_Classification/
 | Random Forest | 100% |
 
 ---
+## 🌐 Live Demo
 
+🔗 https://codealphairisclassification-fvvyay6urappyxcn229fbev.streamlit.app/
+
+---
 ## ▶️ Run the Project
 
 ### Clone the repository
