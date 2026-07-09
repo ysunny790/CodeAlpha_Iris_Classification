@@ -121,7 +121,7 @@ CodeAlpha_Iris_Classification/
 ---
 ## 🌐 Live Demo
 
-🔗 https://codealphairisclassification-fvvyay6urappyxcn229fbev.streamlit.app/
+🔗 https://ysunnyirisclassifier.streamlit.app/
 
 ---
 ## ▶️ Run the Project
